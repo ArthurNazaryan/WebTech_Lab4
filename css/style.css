@@ -37,6 +37,10 @@ button {
   display: block;
   clear: both;
 }
+.header{
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+}
 
 .header__inner {
   width: 100%;
@@ -189,6 +193,10 @@ button {
   background-color: lightgray;
 }
 
+.first-section{
+  background-color: #F4F4F5;
+}
+
 .first-section__inner {
   height: 100vh;
   background-image: url(../img/first-section-bg.jpg);
@@ -216,6 +224,9 @@ button {
   top: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+}
+.footer{
+  background-color: black;
 }
 
 .footer__inner {
