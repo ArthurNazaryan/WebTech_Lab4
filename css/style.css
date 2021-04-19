@@ -247,7 +247,11 @@ button {
 .footer__phone {
   color: #fff;
 }
-
+@media screen and (max-width: 1367px) {
+  .header__hero {
+    padding: 22px 50px;
+  }
+}
 @media screen and (max-width: 1180px) {
   .header__content {
     max-width: 350px;
